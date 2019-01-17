@@ -47,7 +47,7 @@
      <!--   配置dao接口扫描，底层会基于dao接口创建这个接口的代理对象，这个代理
                         对象内部会通过mybatis访问数据库 -->
        <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-            <property name="BasePackage" value="com.db.**.dao"/>
+            <property name="BasePackage" value="com.yg.**.dao"/>
             <property name="SqlSessionFactoryBeanName" 
                       value="sqlSessionFactory"/>
        </bean>
